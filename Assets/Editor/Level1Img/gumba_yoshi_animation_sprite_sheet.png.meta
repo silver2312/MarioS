@@ -1,0 +1,162 @@
+fileFormatVersion: 2
+guid: 8589703830d504d498a7659abe1ff989
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: gumba_yoshi_animation_sprite_sheet_0
+    21300002: gumba_yoshi_animation_sprite_sheet_1
+    21300004: gumba_yoshi_animation_sprite_sheet_2
+    21300006: gumba_yoshi_animation_sprite_sheet_3
+    21300008: gumba_yoshi_animation_sprite_sheet_4
+    21300010: gumba_yoshi_animation_sprite_sheet_5
+    21300012: gumba_yoshi_animation_sprite_sheet_6
+    21300014: gumba_yoshi_animation_sprite_sheet_7
+    21300016: gumba_yoshi_animation_sprite_sheet_8
+    21300018: gumba_yoshi_animation_sprite_sheet_9
+    21300020: gumba_yoshi_animation_sprite_sheet_10
+    21300022: gumba_yoshi_animation_sprite_sheet_11
+    21300024: gumba_yoshi_animation_sprite_sheet_12
+    21300026: gumba_yoshi_animation_sprite_sheet_13
+    21300028: gumba_yoshi_animation_sprite_sheet_14
+    21300030: gumba_yoshi_animation_sprite_sheet_15
+    21300032: gumba_yoshi_animation_sprite_sheet_16
+    21300034: gumba_yoshi_animation_sprite_sheet_17
+    21300036: gumba_yoshi_animation_sprite_sheet_18
+    21300038: gumba_yoshi_animation_sprite_sheet_19
+    21300040: gumba_yoshi_animation_sprite_sheet_20
+    21300042: gumba_yoshi_animation_sprite_sheet_21
+    21300044: gumba_yoshi_animation_sprite_sheet_22
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: gumba_yoshi_animation_sprite_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 3824
+        width: 154
+        height: 176
+      alignment: 9
+      pivot: {x: 0.49999875, y: 0.46427256}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e704fce9718e2a647b37bc95b968cbc6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gumba_yoshi_animation_sprite_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 761
+        width: 182
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c434abf9f05e8014bb19c0b467bda31f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5818a6212d5fd064c8d8343cb9e9bbac
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
