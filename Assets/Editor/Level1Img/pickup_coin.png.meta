@@ -3,6 +3,26 @@ guid: 3b966fbe890df0844952f52110bd60ba
 TextureImporter:
   fileIDToRecycleName:
     21300000: pickup_coin_0
+    21300002: pickup_coin_1
+    21300004: pickup_coin_2
+    21300006: pickup_coin_3
+    21300008: pickup_coin_4
+    21300010: pickup_coin_5
+    21300012: pickup_coin_6
+    21300014: pickup_coin_7
+    21300016: pickup_coin_8
+    21300018: pickup_coin_9
+    21300020: pickup_coin_10
+    21300022: pickup_coin_11
+    21300024: pickup_coin_12
+    21300026: pickup_coin_13
+    21300028: pickup_coin_14
+    21300030: pickup_coin_15
+    21300032: pickup_coin_16
+    21300034: pickup_coin_17
+    21300036: pickup_coin_18
+    21300038: pickup_coin_19
+    21300040: pickup_coin_20
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -100,6 +120,406 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 7f1438da8e8fedf49b89047fae31a35b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pickup_coin_1
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 132
+        width: 120
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca556a25aea8d9e46a0d8cd7dcf591b8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pickup_coin_2
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 130
+        width: 111
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0aa7e1d102c9b04db0f8d4c4a6dc8f3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pickup_coin_3
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 129
+        width: 124
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ed673ff6a1a862469bcc06f5ef59a6c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pickup_coin_4
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 129
+        width: 95
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c115619cda02b37478bba9f739d4d25d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pickup_coin_5
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 130
+        width: 81
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d85a64297ba756a4a9e5044c1d2689b4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pickup_coin_6
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 129
+        width: 62
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42dd084a2243f48439c609bbdc281590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pickup_coin_7
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 129
+        width: 101
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5802b5f2f783e6945bb6def432cc2df2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pickup_coin_8
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 130
+        width: 108
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56197a88f6926da47ab8311bc6813aaf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pickup_coin_9
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 130
+        width: 117
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6283d064651da748b6a49a61b0a4f46
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pickup_coin_10
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 135
+        width: 120
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db80cf4fecb72904d8d9808ea7ff881c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pickup_coin_11
+      rect:
+        serializedVersion: 2
+        x: 1413
+        y: 132
+        width: 125
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bf0f83158e11af4d818fba7f825873a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pickup_coin_12
+      rect:
+        serializedVersion: 2
+        x: 1546
+        y: 130
+        width: 112
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f3bcfbfd5175e54d8feb728da89a937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pickup_coin_13
+      rect:
+        serializedVersion: 2
+        x: 1678
+        y: 133
+        width: 101
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 856cb0ae1bc6fe449bda25ba7d7400d9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pickup_coin_14
+      rect:
+        serializedVersion: 2
+        x: 1820
+        y: 132
+        width: 73
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01c0b9bd078f0954dbde7236b411d781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pickup_coin_15
+      rect:
+        serializedVersion: 2
+        x: 1954
+        y: 130
+        width: 62
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9dd7bb2c99bd764d800bb5feb0fdc03
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pickup_coin_16
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 2
+        width: 65
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 271be1ab5fbef8c42bc3b743cc4f5def
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pickup_coin_17
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 3
+        width: 86
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cf1c7a01af7cce4c8a5c2638bc41adf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pickup_coin_18
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 3
+        width: 107
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 667b969f6eb87eb4a87f2e3a5cc7c4e3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pickup_coin_19
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 2
+        width: 125
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19367d228dbfdbb45bc325e45bc56edc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pickup_coin_20
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 3
+        width: 123
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae3b07951401c2b41981d0b3497a17eb
       vertices: []
       indices: 
       edges: []
