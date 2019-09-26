@@ -3,28 +3,29 @@ guid: 8589703830d504d498a7659abe1ff989
 TextureImporter:
   fileIDToRecycleName:
     21300000: gumba_yoshi_animation_sprite_sheet_0
-    21300002: gumba_yoshi_animation_sprite_sheet_1
-    21300004: gumba_yoshi_animation_sprite_sheet_2
-    21300006: gumba_yoshi_animation_sprite_sheet_3
-    21300008: gumba_yoshi_animation_sprite_sheet_4
-    21300010: gumba_yoshi_animation_sprite_sheet_5
-    21300012: gumba_yoshi_animation_sprite_sheet_6
-    21300014: gumba_yoshi_animation_sprite_sheet_7
+    21300002: 1
+    21300004: 5
+    21300006: 6
+    21300008: 7
+    21300010: 8
+    21300012: 9
+    21300014: 10
     21300016: gumba_yoshi_animation_sprite_sheet_8
-    21300018: gumba_yoshi_animation_sprite_sheet_9
-    21300020: gumba_yoshi_animation_sprite_sheet_10
-    21300022: gumba_yoshi_animation_sprite_sheet_11
-    21300024: gumba_yoshi_animation_sprite_sheet_12
-    21300026: gumba_yoshi_animation_sprite_sheet_13
-    21300028: gumba_yoshi_animation_sprite_sheet_14
-    21300030: gumba_yoshi_animation_sprite_sheet_15
-    21300032: gumba_yoshi_animation_sprite_sheet_16
-    21300034: gumba_yoshi_animation_sprite_sheet_17
-    21300036: gumba_yoshi_animation_sprite_sheet_18
-    21300038: gumba_yoshi_animation_sprite_sheet_19
-    21300040: gumba_yoshi_animation_sprite_sheet_20
-    21300042: gumba_yoshi_animation_sprite_sheet_21
+    21300018: 12
+    21300020: 13
+    21300022: 2
+    21300024: 3
+    21300026: 4
+    21300028: 14
+    21300030: 15
+    21300032: 16
+    21300034: 17
+    21300036: 18
+    21300038: 19
+    21300040: 20
+    21300042: 21
     21300044: gumba_yoshi_animation_sprite_sheet_22
+    21300046: 11
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -127,16 +128,16 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gumba_yoshi_animation_sprite_sheet_1
+      name: 1
       rect:
         serializedVersion: 2
-        x: 51
-        y: 761
-        width: 182
-        height: 182
+        x: 50
+        y: 766
+        width: 160
+        height: 144
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 0, y: 1, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -147,13 +148,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gumba_yoshi_animation_sprite_sheet_2
+      name: 5
       rect:
         serializedVersion: 2
-        x: 1079
-        y: 761
-        width: 182
-        height: 182
+        x: 1084
+        y: 766
+        width: 160
+        height: 141
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -167,13 +168,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gumba_yoshi_animation_sprite_sheet_3
+      name: 6
       rect:
         serializedVersion: 2
-        x: 1318
-        y: 761
-        width: 182
-        height: 182
+        x: 1343
+        y: 766
+        width: 157
+        height: 144
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,13 +188,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gumba_yoshi_animation_sprite_sheet_4
+      name: 7
       rect:
         serializedVersion: 2
-        x: 1585
-        y: 761
-        width: 182
-        height: 182
+        x: 1599
+        y: 766
+        width: 155
+        height: 144
       alignment: 9
       pivot: {x: 0.4690136, y: 0.5320431}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -207,13 +208,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gumba_yoshi_animation_sprite_sheet_5
+      name: 8
       rect:
         serializedVersion: 2
-        x: 1846
-        y: 761
-        width: 182
-        height: 182
+        x: 1853
+        y: 766
+        width: 158
+        height: 144
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -227,13 +228,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gumba_yoshi_animation_sprite_sheet_6
+      name: 9
       rect:
         serializedVersion: 2
-        x: 2091
-        y: 761
-        width: 182
-        height: 182
+        x: 2109
+        y: 766
+        width: 158
+        height: 144
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -247,13 +248,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gumba_yoshi_animation_sprite_sheet_7
+      name: 10
       rect:
         serializedVersion: 2
-        x: 2346
-        y: 761
-        width: 182
-        height: 182
+        x: 2369
+        y: 766
+        width: 156
+        height: 144
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -267,33 +268,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gumba_yoshi_animation_sprite_sheet_8
+      name: 12
       rect:
         serializedVersion: 2
-        x: 2619
-        y: 761
-        width: 182
-        height: 182
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 76bc07b702572544cb8d7e4a70b98796
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: gumba_yoshi_animation_sprite_sheet_9
-      rect:
-        serializedVersion: 2
-        x: 2858
-        y: 761
-        width: 182
-        height: 182
+        x: 2879
+        y: 766
+        width: 163
+        height: 144
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -307,13 +288,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gumba_yoshi_animation_sprite_sheet_10
+      name: 13
       rect:
         serializedVersion: 2
-        x: 3102
-        y: 761
-        width: 182
-        height: 182
+        x: 3134
+        y: 766
+        width: 159
+        height: 144
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -327,15 +308,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gumba_yoshi_animation_sprite_sheet_11
+      name: 2
       rect:
         serializedVersion: 2
-        x: 292
-        y: 761
-        width: 182
-        height: 182
+        x: 314
+        y: 766
+        width: 164
+        height: 144
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -347,15 +328,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gumba_yoshi_animation_sprite_sheet_12
+      name: 3
       rect:
         serializedVersion: 2
-        x: 562
-        y: 761
-        width: 193
-        height: 199
+        x: 581
+        y: 766
+        width: 162
+        height: 144
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -367,13 +348,193 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gumba_yoshi_animation_sprite_sheet_13
+      name: 4
       rect:
         serializedVersion: 2
         x: 829
-        y: 761
-        width: 193
-        height: 182
+        y: 766
+        width: 161
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f86bf1a7c6cb2c42a363e581d8752c2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 14
+      rect:
+        serializedVersion: 2
+        x: 3388
+        y: 766
+        width: 164
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae378872c3d7f8946b71cbf5f303c970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15
+      rect:
+        serializedVersion: 2
+        x: 3644
+        y: 766
+        width: 162
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e64475fa36195a2419d417f336de0712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16
+      rect:
+        serializedVersion: 2
+        x: 3900
+        y: 766
+        width: 160
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6477e8d0a94ffcb438baa64c48fea888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 509
+        width: 162
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d72cd5a34cc16d1418e015d0d104e62c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 509
+        width: 162
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d3f51cc89f1b5144a82af7565bf3b8a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 19
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 509
+        width: 160
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21586e7a8e8fec440b742f638f5a00a2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 509
+        width: 160
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6008cdf52116d2488a9374dc9784483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 21
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 509
+        width: 158
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccd430cb2844b134dbbe847e17562d0f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11
+      rect:
+        serializedVersion: 2
+        x: 2617
+        y: 766
+        width: 168
+        height: 144
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -381,7 +542,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1f86bf1a7c6cb2c42a363e581d8752c2
+      spriteID: 6608e720ad1aa3949902399707258a73
       vertices: []
       indices: 
       edges: []
