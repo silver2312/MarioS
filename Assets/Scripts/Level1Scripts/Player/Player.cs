@@ -90,7 +90,7 @@ public class Player : MonoBehaviour
     }
     public void Knockback(float Knockpow, Vector2 Knockdir)
     {
-        r2.velocity = new Vector2(0,0);
-        r2.AddForce(new Vector2(Knockdir.x*-100, Knockdir.y*Knockpow));
+        r2.velocity = Vector2.zero;
+        r2.AddForce(new Vector2(Knockdir.x * -100, Knockdir.y * Knockpow));
     }
 }

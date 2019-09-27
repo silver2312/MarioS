@@ -12,9 +12,16 @@ public class Lava : MonoBehaviour {
 	{
 		if(col.CompareTag("Player"))
 		{
-			player.Damage(2);
-			player.Knockback(350, player.transform.position);
-
+			player.Damage(5);
+			player.Knockback(400f, player.transform.position);
 		}
 	}
+	// private void OnTriggerStay2D(Collider2D col)
+	// {
+	// 	if(col.CompareTag("Player"))
+	// 	{
+	// 		player.Damage(2);
+	// 		player.Knockback(350f, player.transform.position);
+	// 	}
+	// }
 }
