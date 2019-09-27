@@ -53,11 +53,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\Level1Scripts\Button\pauseMenu.cs" />
      <Compile Include="Assets\Scripts\Level1Scripts\CameraFllow.cs" />
+     <Compile Include="Assets\Scripts\Level1Scripts\Enemy\Lava.cs" />
      <Compile Include="Assets\Scripts\Level1Scripts\Ground\FallingGr.cs" />
      <Compile Include="Assets\Scripts\Level1Scripts\Player\GroundCheck.cs" />
      <Compile Include="Assets\Scripts\Level1Scripts\Player\Player.cs" />
+     <Compile Include="Assets\Scripts\Level1Scripts\UI\healUI.cs" />
+     <Compile Include="Assets\Scripts\Level1Scripts\UI\pauseMenu.cs" />
  <Reference Include="UnityEditor.StandardEvents">
  <HintPath>D:/Unity/MarioS/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>

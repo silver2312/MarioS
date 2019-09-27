@@ -1,17 +1,21 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {    
-    public float speed=50f,maxspeed=3,jumpPow=220f;
+    public float speed=50f,maxspeed=3,jumpPow=220f, maxjump = 4;
     public Rigidbody2D r2;
     public bool grounded = true,faceright = true,doubleJump=false;
     public Animator anim;
+    public int ourHeal;
+    public int maxHeal = 5;
     void Start()
     {
         r2 = gameObject.GetComponent<Rigidbody2D>();
         anim = gameObject.GetComponent<Animator>();
+        ourHeal = maxHeal;
     }
 
     // Update is called once per frame
@@ -47,6 +51,10 @@ public class Player : MonoBehaviour
             r2.velocity = new Vector2(maxspeed,r2.velocity.y);
         if(r2.velocity.x <- maxspeed)
             r2.velocity = new Vector2(-maxspeed,r2.velocity.y);
+        if(r2.velocity.y > maxjump)
+            r2.velocity = new Vector2(r2.velocity.x,maxjump);
+        if(r2.velocity.y <- maxjump)
+            r2.velocity = new Vector2(r2.velocity.x,-maxjump);
         if(h>0 && !faceright)
         {
             Flip();
@@ -59,6 +67,10 @@ public class Player : MonoBehaviour
         {
             r2.velocity = new Vector2(r2.velocity.x*0.7f,r2.velocity.y);
         }
+        if(ourHeal <= 0)
+        {
+            Dead();
+        }
     }
     public void Flip()
     {
@@ -67,5 +79,18 @@ public class Player : MonoBehaviour
         Scale = transform.localScale;
         Scale.x *= -1;
         transform.localScale = Scale;
+    }
+    public void Dead()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+    public void Damage(int dmg)
+    {
+        ourHeal -= dmg;
+    }
+    public void Knockback(float Knockpow, Vector2 Knockdir)
+    {
+        r2.velocity = new Vector2(0,0);
+        r2.AddForce(new Vector2(Knockdir.x*-100, Knockdir.y*Knockpow));
     }
 }
