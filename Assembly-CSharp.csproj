@@ -56,7 +56,9 @@
      <Compile Include="Assets\Scripts\Level1Scripts\CameraFllow.cs" />
      <Compile Include="Assets\Scripts\Level1Scripts\Enemy\Enemy.cs" />
      <Compile Include="Assets\Scripts\Level1Scripts\Enemy\Lava.cs" />
+     <Compile Include="Assets\Scripts\Level1Scripts\GameMaster.cs" />
      <Compile Include="Assets\Scripts\Level1Scripts\Ground\FallingGr.cs" />
+     <Compile Include="Assets\Scripts\Level1Scripts\NextLevel.cs" />
      <Compile Include="Assets\Scripts\Level1Scripts\Player\AttackTrigger.cs" />
      <Compile Include="Assets\Scripts\Level1Scripts\Player\GroundCheck.cs" />
      <Compile Include="Assets\Scripts\Level1Scripts\Player\Player.cs" />

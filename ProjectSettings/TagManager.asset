@@ -6,6 +6,10 @@ TagManager:
   tags:
   - Lava
   - Enemy
+  - EMove
+  - EMove1
+  - gamecontrol
+  - coins
   layers:
   - Default
   - TransparentFX
