@@ -63,6 +63,7 @@
      <Compile Include="Assets\Scripts\Level1Scripts\Player\GroundCheck.cs" />
      <Compile Include="Assets\Scripts\Level1Scripts\Player\Player.cs" />
      <Compile Include="Assets\Scripts\Level1Scripts\Player\PlayerAttack.cs" />
+     <Compile Include="Assets\Scripts\Level1Scripts\SoundManager.cs" />
      <Compile Include="Assets\Scripts\Level1Scripts\UI\healUI.cs" />
      <Compile Include="Assets\Scripts\Level1Scripts\UI\pauseMenu.cs" />
  <Reference Include="UnityEditor.StandardEvents">

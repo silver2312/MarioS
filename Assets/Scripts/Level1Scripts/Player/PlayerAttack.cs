@@ -7,17 +7,20 @@ public class PlayerAttack : MonoBehaviour {
 	public bool attacking = false;
 	public Animator anim;
 	public Collider2D trigger;
+	public SoundManager sound;
 	// Use this for initialization
 	private void Awake()
 	{
 		anim = gameObject.GetComponent<Animator>();
 		trigger.enabled = false;
+		sound = GameObject.FindGameObjectWithTag("Sound").GetComponent<SoundManager>();
 	}
 	
 	// Update is called once per frame
 	void Update () {
 		if(Input.GetKeyDown(KeyCode.F) && !attacking)
 		{
+			sound.Playsound("sword");
 			attacking = true;
 			trigger.enabled = true;
 			attackdelay = 0.3f;

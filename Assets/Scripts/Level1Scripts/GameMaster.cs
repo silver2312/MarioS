@@ -17,7 +17,7 @@ public class GameMaster : MonoBehaviour {
 		if(PlayerPrefs.HasKey("point"))
 		{
 			Scene ActiveScreen = SceneManager.GetActiveScene();
-			if(ActiveScreen.buildIndex == 0)
+			if(ActiveScreen.buildIndex == 1)
 			{
 				PlayerPrefs.DeleteKey("point");
 				point = 0;

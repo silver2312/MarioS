@@ -8,28 +8,32 @@ public class Enemy : MonoBehaviour {
 	public float speed = 0.02f, changeDireCtion = -1;
 	public Animator anim;
 	Vector3 Move;
+	public SoundManager sound;
+	public pauseMenu pausep;
 	void Start () {
 		anim = gameObject.GetComponent<Animator>();
 		player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
 		Move = this.transform.position;
+		sound = GameObject.FindGameObjectWithTag("Sound").GetComponent<SoundManager>();
+		pausep = GameObject.FindGameObjectWithTag("MainCamera").GetComponentInParent<pauseMenu>();
 	}
 	void Update () {
-		Move.x += speed;		
-		this.transform.position = Move;
-		if(Health <= 0)
-		{
-			Destroy(gameObject);
+		if (pausep.pause)
+        {
+            this.transform.position = this.transform.position;
+ 
+        }if (pausep.pause == false)
+        {
+			Move.x += speed;		
+			this.transform.position = Move;
+			if(Health <= 0)
+			{
+				sound.Playsound("enemy_die");
+				Destroy(gameObject);
+			}
 		}
 	}
 	void OnTriggerEnter2D(Collider2D col) {
-		if(col.CompareTag("EMove1"))
-		{
-			speed *= changeDireCtion;
-			Vector3 Scale;
-			Scale = transform.localScale;
-			Scale.x *= -1;
-			transform.localScale = Scale;
-		}
 		if(col.CompareTag("EMove"))
 		{
 			speed *= changeDireCtion;
@@ -45,9 +49,9 @@ public class Enemy : MonoBehaviour {
 			player.Damage(1);
 			player.Knockback(400f, player.transform.position);
 		}
-	}
-	
+	}	
 	void Damage(int damage)	{
+		sound.Playsound("ehu");
 		Health -= damage;
 	}
 }

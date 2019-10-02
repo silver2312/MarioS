@@ -14,6 +14,10 @@ public class healUI : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		if (player.ourHeal > 5)
+            player.ourHeal = 5; 
+        if (player.ourHeal < 0)
+            player.ourHeal = 0;
 		heartUI.sprite = Healsprite[player.ourHeal];
 	}
 }

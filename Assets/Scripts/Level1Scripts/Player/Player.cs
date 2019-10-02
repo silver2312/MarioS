@@ -12,12 +12,14 @@ public class Player : MonoBehaviour
     public int ourHeal;
     public int maxHeal = 5;
     public GameMaster gm;
+    public SoundManager sound;
     void Start()
     {
         r2 = gameObject.GetComponent<Rigidbody2D>();
         anim = gameObject.GetComponent<Animator>();
         gm = GameObject.FindGameObjectWithTag("gamecontrol").GetComponent<GameMaster>();
         ourHeal = maxHeal;
+        sound = GameObject.FindGameObjectWithTag("Sound").GetComponent<SoundManager>();
     }
 
     // Update is called once per frame
@@ -29,6 +31,7 @@ public class Player : MonoBehaviour
         {
             if(grounded)
             {
+                sound.Playsound("jump");
                 grounded=false;
                 doubleJump=true;
                 r2.AddForce(Vector2.up*jumpPow);
@@ -37,6 +40,7 @@ public class Player : MonoBehaviour
             {
                 if(doubleJump)
                 {
+                    sound.Playsound("jump");
                     doubleJump = false;
                     r2.velocity= new Vector2(r2.velocity.x,0);
                     r2.AddForce(Vector2.up*jumpPow*0.5f);
@@ -85,21 +89,24 @@ public class Player : MonoBehaviour
     public void Dead()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-        if(PlayerPrefs.GetInt("highcore") < gm.point)
-            PlayerPrefs.SetInt("highcore", gm.point);
+        if(PlayerPrefs.GetInt("highscore") < gm.point)
+        {
+            PlayerPrefs.SetInt("highscore", gm.point);
+        }
     }
     public void Damage(int dmg)
     {
         ourHeal -= dmg;
     }
-    public void Knockback(float Knockpow, Vector2 Knockdir)
+    public void Knockback (float Knockpow, Vector2 Knockdir)
     {
-        r2.velocity = Vector2.zero;
+        r2.velocity = new Vector2(0, 0);
         r2.AddForce(new Vector2(Knockdir.x * -100, Knockdir.y * Knockpow));
     }
     void OnTriggerEnter2D(Collider2D col) {
         if(col.CompareTag("coins"))
         {
+            sound.Playsound("coin");
             Destroy(col.gameObject);
             gm.point += 100;
         }

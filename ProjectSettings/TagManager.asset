@@ -7,9 +7,9 @@ TagManager:
   - Lava
   - Enemy
   - EMove
-  - EMove1
   - gamecontrol
   - coins
+  - Sound
   layers:
   - Default
   - TransparentFX

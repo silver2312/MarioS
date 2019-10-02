@@ -5,16 +5,19 @@ using UnityEngine.SceneManagement;
 
 public class pauseMenu : MonoBehaviour {
 	public GameObject pauseUI;
-	private bool pause = false;
+	public bool pause = false;
+	public SoundManager sound;
 	// Use this for initialization
 	void Start () {
 		pauseUI.SetActive(false);
+		sound = GameObject.FindGameObjectWithTag("Sound").GetComponent<SoundManager>();
 	}
 	
 	// Update is called once per frame
 	void Update () {
 		if(Input.GetKeyDown(KeyCode.Escape))
 		{
+			sound.Playsound("pause");
 			pause = !pause;
 		}
 		if(pause)
@@ -37,6 +40,6 @@ public class pauseMenu : MonoBehaviour {
 		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 	}
 	public void quit() {
-		Application.Quit();
+		SceneManager.LoadScene(0);
 	}
 }
