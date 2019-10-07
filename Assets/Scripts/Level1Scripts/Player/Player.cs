@@ -5,9 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {    
-    public float speed=50f,maxspeed=3,jumpPow=220f, maxjump = 4;
+    public float speed=50f,maxspeed=3,jumpPow=250f, maxjump = 4;
     public Rigidbody2D r2;
-    public bool grounded = true,faceright = true,doubleJump=false;
+    public bool grounded = true,faceright = true,doubleJump=false,swim = false;
     public Animator anim;
     public int ourHeal;
     public int maxHeal = 5;
@@ -15,6 +15,7 @@ public class Player : MonoBehaviour
     public SoundManager sound;
     void Start()
     {
+        // PlayerPrefs.DeleteAll();
         r2 = gameObject.GetComponent<Rigidbody2D>();
         anim = gameObject.GetComponent<Animator>();
         gm = GameObject.FindGameObjectWithTag("gamecontrol").GetComponent<GameMaster>();
@@ -26,15 +27,17 @@ public class Player : MonoBehaviour
     void Update()
     {
         anim.SetBool("Grounded",grounded);
+        anim.SetBool("Swim",swim);
         anim.SetFloat("Speed",Mathf.Abs(r2.velocity.x));
-        if(Input.GetKeyDown(KeyCode.Space))
+        if(Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.W))
         {
             if(grounded)
             {
                 sound.Playsound("jump");
-                grounded=false;
+                grounded=false;                
                 doubleJump=true;
                 r2.AddForce(Vector2.up*jumpPow);
+                swim = false;
             }
             else
             {
@@ -43,7 +46,7 @@ public class Player : MonoBehaviour
                     sound.Playsound("jump");
                     doubleJump = false;
                     r2.velocity= new Vector2(r2.velocity.x,0);
-                    r2.AddForce(Vector2.up*jumpPow*0.5f);
+                    r2.AddForce(Vector2.up*jumpPow*0.75f);
                 }
             }
         }
@@ -56,6 +59,7 @@ public class Player : MonoBehaviour
         if(r2.velocity.x > maxspeed)
             r2.velocity = new Vector2(maxspeed,r2.velocity.y);
         if(r2.velocity.x <- maxspeed)
+
             r2.velocity = new Vector2(-maxspeed,r2.velocity.y);
         if(r2.velocity.y > maxjump)
             r2.velocity = new Vector2(r2.velocity.x,maxjump);
@@ -72,6 +76,7 @@ public class Player : MonoBehaviour
         if(grounded)
         {
             r2.velocity = new Vector2(r2.velocity.x*0.7f,r2.velocity.y);
+            swim = false;
         }
         if(ourHeal <= 0)
         {
@@ -108,7 +113,12 @@ public class Player : MonoBehaviour
         {
             sound.Playsound("coin");
             Destroy(col.gameObject);
-            gm.point += 100;
+            gm.point += 1;
+        }
+        if(col.CompareTag("Water"))
+        {
+            swim = true;
+            grounded = false;
         }
     }
 }

@@ -28,11 +28,12 @@ public class NextLevel : MonoBehaviour {
 			{
 				sound.Playsound("nlevel");
 				savescore();
+				gm.inputtext.text = ("Press N to next level");
 				SceneManager.LoadScene(Levelload);
 			}
 		}
 	}
-	private void OnTriggerẼit2D(Collider2D col)
+	private void OnTriggerExit2D(Collider2D col)
 	{
 		if(col.CompareTag("Player"))
 		{

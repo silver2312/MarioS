@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class FallingGr : MonoBehaviour {
 	public Rigidbody2D g2;
-	public float timedelay = 0.5f;
+	public float timedelay = 0.2f;
 	// Use this for initialization
 	void Start () {
 		g2 = gameObject.GetComponent<Rigidbody2D>();

@@ -15,13 +15,17 @@ public class GroundCheck : MonoBehaviour {
 	}
 	void OnTriggerEnter2D(Collider2D collision)
 	{
-		player.grounded = true;
+		if(collision.isTrigger== false || collision.CompareTag("Water"))
+			player.grounded = true;
 	}
-	private void OnTriggerStay2D(Collider2D collision) {
-		player.grounded = true;
+	private void OnTriggerStay2D(Collider2D collision) 
+	{
+		if(collision.isTrigger== false || collision.CompareTag("Water"))
+			player.grounded = true;
 	}
 	private void OnTriggerExit2D(Collider2D collision)
 	{
-		player.grounded = false;
+		if(collision.isTrigger== false || collision.CompareTag("Water"))
+			player.grounded = false;
 	}
 }
