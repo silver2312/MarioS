@@ -7,7 +7,7 @@ public class Player : MonoBehaviour
 {    
     public float speed=50f,maxspeed=3,jumpPow=250f, maxjump = 4;
     public Rigidbody2D r2;
-    public bool grounded = true,faceright = true,doubleJump=false,swim = false;
+    public bool grounded = true,faceright = true,doubleJump=false;
     public Animator anim;
     public int ourHeal;
     public int maxHeal = 5;
@@ -27,7 +27,6 @@ public class Player : MonoBehaviour
     void Update()
     {
         anim.SetBool("Grounded",grounded);
-        anim.SetBool("Swim",swim);
         anim.SetFloat("Speed",Mathf.Abs(r2.velocity.x));
         if(Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.W))
         {
@@ -37,7 +36,6 @@ public class Player : MonoBehaviour
                 grounded=false;                
                 doubleJump=true;
                 r2.AddForce(Vector2.up*jumpPow);
-                swim = false;
             }
             else
             {
@@ -76,7 +74,6 @@ public class Player : MonoBehaviour
         if(grounded)
         {
             r2.velocity = new Vector2(r2.velocity.x*0.7f,r2.velocity.y);
-            swim = false;
         }
         if(ourHeal <= 0)
         {
@@ -114,11 +111,6 @@ public class Player : MonoBehaviour
             sound.Playsound("coin");
             Destroy(col.gameObject);
             gm.point += 1;
-        }
-        if(col.CompareTag("Water"))
-        {
-            swim = true;
-            grounded = false;
         }
     }
 }
